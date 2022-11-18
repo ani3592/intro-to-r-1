@@ -1,0 +1,8 @@
+library(stringr)
+library(readxl)
+help(readxl)
+dim(listings)
+names(listings)
+summary(listings)
+df_listings<- readxl:: read_xlsx(path = "listings.xlsx")
+read.csv(listings)
